@@ -4,6 +4,7 @@
   "description": "recipe application ",
   "default": "index.html",
   "scripts": {
+    "test": "jest",
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
@@ -11,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.15.4",
+    "jest": "^30.0.4",
     "parcel": "^2.15.4",
     "sass": "^1.89.2"
   }
